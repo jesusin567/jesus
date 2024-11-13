@@ -26,6 +26,12 @@ header {
     margin: 0;
 }
 
+.logo1 {
+    width: 75px;
+    height: 50px;
+}
+
+
 .search-container {
     position: relative;
 }
@@ -116,8 +122,23 @@ main {
     display: block;
 }
 
+.prerojo{
+    color: red;
+}
 
+.gui{
+color: red;
+}
 
+.rojiyo{
+    color: red;
+}
+
+  
+.sidebar{
+width: 50;
+height: 50;
+}
 
 
 /* Footer */
@@ -130,7 +151,7 @@ footer {
 /* Responsive Design */
 @media (max-width: 768px) {
     .sidebar {
-        width: 150px;
+        width: 100px;
     }
 
     main {
@@ -139,10 +160,6 @@ footer {
 
     #search {
         width: 180px;
-    }
-
-    .main-title {
-        font-size: 2em;
     }
 
     .monitor {
@@ -155,3 +172,6 @@ footer {
 }
 
 
+.textorojo{
+    color: red;
+}
